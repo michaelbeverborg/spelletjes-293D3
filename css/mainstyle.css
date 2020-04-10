@@ -1,0 +1,83 @@
+h1 {
+  text-align: center;
+}
+
+section {
+  margin: 10px 10px;
+  border: 2px solid #aaa;
+  text-align: center;
+}
+
+figure {
+  margin: 10px auto;
+  width: fit-content;
+  border: 2px solid #aaa;
+  text-align: center;
+}
+
+figure > img {
+  margin: 3px;
+}
+
+div {
+  box-sizing: border-box;
+  border: 2px solid #aaa;
+  display: inline-block;
+}
+
+.abstract {
+  width: 50%;
+  background-image: url("../img/abstract.jpg");
+}
+
+p {
+  width: 50ch;
+  padding: 2em;
+  border: 3em solid rgba(255, 255, 255, 0.6);
+  margin: 2em auto;
+  background-clip: padding-box;
+  background-color: white;
+}
+
+.speltable {
+  width: 50%;
+  float: right;
+}
+
+.tweede {
+  clear: both;
+}
+
+table {
+  font-size: 1.1em;
+  color: white;
+  background-color: #999;
+}
+th {
+  font-size: 1.3em;
+  color: #222;
+}
+tr {
+  background-color: #ccc;
+}
+td {
+  background-color: #aaa;
+}
+
+.darker {
+  background-color: #666;
+}
+
+.tweede table {
+  color: #000;
+  margin: auto;
+}
+.tweede td {
+  font-size: 2em;
+  width: 80px;
+  height: 80px;
+}
+
+.whitepieces {
+  color: #fff;
+}
