@@ -44,11 +44,8 @@ p {
   float: right;
 }
 
-.tweede {
-  clear: both;
-}
-
 table {
+  width: 100%;
   font-size: 1.1em;
   color: white;
   background-color: #999;
@@ -62,6 +59,14 @@ tr {
 }
 td {
   background-color: #aaa;
+}
+
+.schaakbord {
+  width: auto;
+  font-size: 1.1em;
+  color: white;
+  background-color: #999;
+  border: 1px solid #ff0000;
 }
 
 .darker {
@@ -80,4 +85,9 @@ td {
 
 .whitepieces {
   color: #fff;
+}
+
+.schaakrand {
+  border: 30px solid #222;
+  padding: 20px;
 }
